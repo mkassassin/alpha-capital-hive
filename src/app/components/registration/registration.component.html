@@ -1,0 +1,16 @@
+<div class="registration-section">
+	<div class="ach-title">
+		<h4> Create Account</h4>
+	</div>
+	<div class="ach-form">
+		<form (ngSubmit)="onSubmit()" [formGroup]="registrationForm">
+			<div class="container-fluid">
+				<div class="ach-form-field">
+					<mat-form-field>
+						<input matInput placeholder="Full Name" formControlName="name">
+					 </mat-form-field>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
